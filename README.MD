@@ -1,13 +1,13 @@
 # cli-framework
-*&copy; 2020 Monogram Online*
+*&copy; 2020 [Monogram Online](https://monogramonline.com/)*
 
-CLI Framework based on symfony components. This framework provides a
+CLI Framework based on [Symfony](https://symfony.com) components. This framework provides a
 skeleton for developing console based applications.
 
 ## Requirements
-- PHP 7.x
-- Composer
-- Symfony basic knowledge
+- [PHP 7.x](https://www.php.net/downloads.php)
+- [Composer](https://getcomposer.org/)
+- [Symfony basic knowledge](https://symfony.com/docs)
 
 ### How to install
 1. Clone or download this repository
