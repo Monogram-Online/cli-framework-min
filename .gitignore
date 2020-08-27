@@ -1,0 +1,17 @@
+#Metadata
+.idea
+
+# Logs and Cache (Symfony4)
+/var/
+
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.ini
+
+# Managed by Composer
+/bin/*
+!bin/console
+/vendor/
+
+# Dotenv
+.env
