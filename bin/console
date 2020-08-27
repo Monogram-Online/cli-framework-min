@@ -12,12 +12,7 @@ set_time_limit(0);
 $dotenv = new Symfony\Component\Dotenv\Dotenv();
 $dotenv->load(dirname(__DIR__).'/.env');
 
-$debug = false;
-if ($_ENV['APP_ENV'] === 'dev' || $_ENV['APP_ENV'] === 'test') {
-    $debug = true;
-}
-
-$kernel = new Monogram\CLI\MonogramCLIKernel($_ENV['APP_ENV'], $debug);
+$kernel = new Monogram\CLI\MonogramCLIKernel($_ENV['APP_ENV'], $_ENV['APP_DEBUG']);
 $kernel->boot();
 
 $container = $kernel->getContainer();

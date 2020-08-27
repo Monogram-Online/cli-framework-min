@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Monogram\CLI\Command;
 
 use Symfony\Component\Console\Command\Command;
@@ -13,7 +12,7 @@ class HelloMonogramCommand extends Command
 
     protected function configure()
     {
-        $this->setDescription('Outputs "Hello Monogram"');
+        $this->setDescription('Command example, outputs "Hello Monogram"');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
